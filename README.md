@@ -14,8 +14,11 @@ Program parameters:
 
 So, an example influence maximization run on Epinions for timestep `5`, with `10%` of the network as seed and `100%` of the network as target yields:
 ```
+... $ ls
+adjacency-matrix.npz             main.py         README.md
+baseline3-transition-matrix.npz  partitions.npy  transition-matrix.npz
 ... $ python3 main.py --t=5 --tkp=10 --target=100
-	5,	13258,	132585,	12515.39,	14002.75,	15074.54,	17050.17,	6.97,	52.39,	68.44,	135.17,	0.06336,	0.10997,	0.32434,	0.16444,
+	5,	13258,	132585,	12515.39,	14002.75,	15074.54,	17050.17,	6.97,	52.39,	68.44,	135.17,	0.05936,	0.10723,	0.26792,	0.13931
 ```
 
 ## Output Values
