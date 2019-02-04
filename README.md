@@ -79,5 +79,5 @@ The plots can be simply regenerated using a simple script to generate the data f
 ... $ python3 main.py --t=30 --tkp=10 --target=100 >> data.csv
 ```
 
-will generate a file `data.csv`. This can be used in conjunction with the column descriptions above to generate figure `2 (a)`, `3 (a)`, and `4 (a)` respectively.
+will generate a file `data.csv`. This can be used in conjunction with the column descriptions above to generate figure `2`, `3`, and `4` respectively.
 
