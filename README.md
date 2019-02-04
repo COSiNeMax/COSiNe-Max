@@ -41,4 +41,43 @@ The output values are designed for easy piping into csv files for plotting and a
 14. Running time to find seed set by Individual InfMax (Baseline)
 15. Running time to find seed set by COSiNe Max
 
+## Plots
+
+The plots can be simply regenerated using a simple script to generate the data file, and any plotting software. For example, 
+
+```
+... $ python3 main.py --t=0 --tkp=10 --target=100 > data.csv
+... $ python3 main.py --t=1 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=2 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=3 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=4 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=5 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=6 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=7 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=8 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=9 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=10 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=11 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=12 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=13 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=14 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=15 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=16 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=17 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=18 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=19 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=20 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=21 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=22 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=23 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=24 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=25 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=26 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=27 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=28 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=29 --tkp=10 --target=100 >> data.csv
+... $ python3 main.py --t=30 --tkp=10 --target=100 >> data.csv
+```
+
+will generate a file `data.csv`. This can be used in conjunction with the column descriptions above to generate figure `2 (a)`, `3 (a)`, and `4 (a)` respectively.
 
