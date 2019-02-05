@@ -2,7 +2,7 @@
 
 The associated datasets can be obtained from this google drive link: [https://drive.google.com/drive/folders/1hHn14eYehzRp8nk_supRfnhahXDDjjmn?usp=sharing](https://drive.google.com/drive/folders/1hHn14eYehzRp8nk_supRfnhahXDDjjmn?usp=sharing).
 
-To run, simply all the data files from any social network of your choice (from the Google drive link above) and call `main.py` program from python3. Please install `numpy` and `scipy` first.
+To run, simply copy all the data files from any social network of your choice (from the Google drive link above) and call `main.py` program from python3. Please install `numpy` and `scipy` first.
 
 ## Input Parameters
 
@@ -25,7 +25,7 @@ baseline3-transition-matrix.npz  partitions.npy  transition-matrix.npz
 
 The output values are designed for easy piping into csv files for plotting and analysis. The columns are:
 
-1. timetep
+1. time step
 2. size of seed set: k
 3. number of nodes in campaigners target
 4. Expected number of correctly influenced nodes by Random (Baseline)
@@ -43,7 +43,7 @@ The output values are designed for easy piping into csv files for plotting and a
 
 ## Plots
 
-The plots can be simply regenerated using a simple script to generate the data file, and any plotting software. For example, 
+The plots can be regenerated using a simple script to generate the data file, and any plotting software. For example, 
 
 ```
 ... $ python3 main.py --t=0 --tkp=10 --target=100 > data.csv
